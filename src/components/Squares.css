@@ -1,0 +1,26 @@
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(34, 23, 244);
+    font-size: 50px;
+    color: coral;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+}
+
+.square-row {
+    display: flex;
+    flex-direction: row;
+}
+.winner {
+    background-color: yellow;
+    
+}
+
+.gameboard {
+  display: flex;
+}
+

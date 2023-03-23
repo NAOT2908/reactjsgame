@@ -1,0 +1,56 @@
+
+.boardgame{
+}
+
+h2 {
+    padding-top: 30px;
+    align-items: center;
+    color: #ec162b;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .ongame {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    padding: 50px;
+  
+  }
+  .ongame > label {
+    padding: 20px; 
+  }
+  .ongame > .lcol {
+    padding-right: 33px;
+  }
+  
+  
+  .ongame > input {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #000;
+  }
+  
+  .ongame > button {
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #F2C14E;
+    color: #000;
+    transition: 200ms transform;
+    font-weight: 600;
+  }
+  .ongame > button:hover {
+    cursor: pointer;
+    background-color: #06fd0a;
+    color: #fbfbfb;
+    transform: translateY(-2px);
+  }
+  
